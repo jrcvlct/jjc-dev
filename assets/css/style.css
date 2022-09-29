@@ -348,7 +348,6 @@ input {
   font-weight: var(--font-medium);
   position: relative;
   z-index: 1;
-  margin-top: 1rem; /* extra style */
 }
 
 .button::after {
@@ -390,18 +389,41 @@ input {
 .about__heading {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-75);
+  margin-top: 2rem;
+  text-align: center
 }
 
 .about__description {
   text-align: justify;
-  padding: 6rem;
+  padding: 0.5rem;
   margin-bottom: var(--mb-2);
 }
 
 .about__info {
-  display: grid;
   grid-template-columns: repeat(3, 140px);
   column-gap: .5rem;
+  margin-bottom: var(--mb-3);
+}
+
+.about__box {
+  text-align: center;
+  border-radius: 0.25rem;
+  padding: 1rem 1.25rem;
+  background-color: var(--box-color);
+}
+
+.about__icon {
+  font-size: 1.5rem;
+  color: var(--skin-color);
+  margin-bottom: var(--mb-0-75);
+}
+
+.about__title {
+  font-size: var(--small-font-size);
+}
+
+.about__subtitle {
+  font-size: var(--smaller-font-size);
 }
 
 /*===== Qualification Section =====*/
